@@ -10,10 +10,14 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 
 
-app.get('/', (res, req) => {
+app.get('/', (req, res) => {
     res.send('Hello World');
- 
 });
+
+app.get('/notes', (req, res) => {
+    res.send(path.join(__dirname, 'public/notes.html'));
+})
+
 
 
 app.listen(PORT, () => {
