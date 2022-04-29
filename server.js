@@ -2,13 +2,12 @@ const express = require('express');
 
 const app = express();
 const PORT= 3001;
-const apiRoutes = require('./routes/api');
-const htmlRoutes = require('./routes/html');
+// const apiRoutes = require('./routes/api');
+// const htmlRoutes = require('./routes/html');
 
 api.use(express.json());
 api.use(express.urlencoded({extended: true}));
 api.use(express.static('public'));
-
 
 
 app.get('/', (res, req) => {
