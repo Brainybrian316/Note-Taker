@@ -5,9 +5,9 @@ const PORT= 3001;
 // const apiRoutes = require('./routes/api');
 // const htmlRoutes = require('./routes/html');
 
-api.use(express.json());
-api.use(express.urlencoded({extended: true}));
-api.use(express.static('public'));
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
+app.use(express.static('public'));
 
 
 app.get('/', (res, req) => {
