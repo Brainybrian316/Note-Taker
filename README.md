@@ -12,7 +12,7 @@
   </a>
 </p>
 
-> A node package used to generate a webpage that will display a team of employees basic info. This will enable the user to have quick access to their employees email's and GitHub profiles. The package will create three classes: Manager, Engineer, Intern. Classes are also color coated by groupings. 
+> A backend development project that host an application called Note Taker that can be used to write and save notes. This application uses Express.js back end that will save and retrieve note data from a JSON file. The applications front end was already created by another team. Therefore, my contribution to the code was only the backend. The application is also deployed on Heroku.
 
 
 ***
