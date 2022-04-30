@@ -33,7 +33,6 @@ app.post('/api/notes', (req, res) => {
         "id": uuid()
     }
     note.push(newNote)
-    console.log(newNote.id)
     fs.writeFileSync(path.join(__dirname, './db/db.json'),
     JSON.stringify(note, null, 2))
     res.json(note);
