@@ -19,7 +19,7 @@
 ## Demo of Project 
 
 ### 🏠 [Homepage](https://github.com/Brainybrian316/Note-Taker#readme)
-### ✨ [Live Demo](https://user-images.githubusercontent.com/99369106/164992557-8eaf23b6-8282-4f3a-8e3e-711c9586f2de.mp4)
+### ✨ [Live Demo](https://user-images.githubusercontent.com/99369106/166121471-cee5e726-2b13-4b38-923d-a61843815313.mp4)
 
 <p>This is what the homepage looks like:</p>
 
