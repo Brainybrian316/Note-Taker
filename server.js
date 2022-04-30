@@ -1,6 +1,8 @@
 const express = require('express');
 const path = require('path');
 const note = require('./db/db.json');
+const fs = require('fs');
+
 
 
 const app = express();
@@ -18,6 +20,8 @@ app.get('/api/note', (req, res) => {
 
 app.post('/test/note', (req, res) => {
     note.push(req.body)
+    fs.writeFileSync(path.join(__dirname, './db/db.json'),
+    JSON.stringify(note, null, 2))
     res.json(note);
 })
 
