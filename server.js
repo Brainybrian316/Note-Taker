@@ -16,6 +16,11 @@ app.get('/api/note', (req, res) => {
     res.json(note);
 })
 
+app.post('/test/note', (req, res) => {
+    note.push(req.body)
+    res.json(note);
+})
+
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/notes.html'));
 })
