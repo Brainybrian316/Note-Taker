@@ -18,7 +18,7 @@
 ***
 ## Demo of Project 
 
-### 🏠 [Homepage](https://github.com/Brainybrian316/Note-Taker#readme)
+### 🏠 [Homepage](https://note-taker-brainybrian316.herokuapp.com/)
 ### ✨ [Live Demo](https://user-images.githubusercontent.com/99369106/166121471-cee5e726-2b13-4b38-923d-a61843815313.mp4)
 
 <p>This is what the homepage looks like:</p>
